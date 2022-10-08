@@ -7,7 +7,7 @@ public class Main {
         Product product = new Product();
         product.setName("Laptop");
         product.setId(1);
-        product.setDescription("Apple Laptop");
+        product.setDescription("Asus Laptop");
         product.setPrice(25000);
         product.setStockAmount(9);
         product.setRenk("Altın");
@@ -16,5 +16,7 @@ public class Main {
         ProductManager productManager = new ProductManager();
         productManager.Add(product);
         System.out.println(product.getKod());
+
+
     }
 }
